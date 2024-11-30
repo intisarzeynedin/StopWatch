@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.smartWatch {
+  text-align: center;
+  background-color: #ff0a0a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 80px rgb(255, 71, 71);
+}
+
+#counter {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #000000;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000; 
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+  background-color: #f30a0a; 
+}
